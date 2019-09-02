@@ -97,7 +97,22 @@ namespace ConsoleApp2
                 }
                 for (int j = 0; j < i; j++)
                 {
-                    Console.Write("~");
+                    Console.Write("*");
+                    Console.Write(" ");
+                }
+                Console.WriteLine();
+
+                
+            }
+            for (int c = 0; c < sayi12; c++)
+            {
+                for (int y = 0; y < c; y++)
+                {
+                    Console.Write(" ");
+                }
+                for (int p = c; p < sayi12; p++)
+                {
+                    Console.Write("*");
                     Console.Write(" ");
                 }
                 Console.WriteLine();
@@ -106,7 +121,6 @@ namespace ConsoleApp2
         }
     }
 }
-
 
 
 
